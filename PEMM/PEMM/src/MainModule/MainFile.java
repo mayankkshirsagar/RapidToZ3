@@ -67,7 +67,7 @@ public class MainFile {
 		{
 			ManageIf.mainfunction(lbl);
 		}
-		if(lbl.startsWith("ELSE"))
+		if(lbl.startsWith("ELSE") && !lbl.startsWith("ELSEIF"))
 		{
 			ManageElse.mainfunction(lbl);
 		}
